@@ -34,8 +34,7 @@ module.exports = {
           'css-loader',
           'sass-loader?indentedSyntax'
         ],
-      },
-      {{/sass}}
+      },{{/sass}}
       {
         test: /\.vue$/,
         loader: 'vue-loader',
